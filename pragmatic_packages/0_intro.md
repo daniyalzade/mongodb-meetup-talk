@@ -8,13 +8,20 @@
 !SLIDE
 # Hi.
 
-
+!SLIDE 
 !SLIDE github bigger
 github.com/kennethreitz
 
-!SLIDE
+* Talk about all the automation
+* dict/list how list actually takes space
+* Slave promotion
+* All the calculations regarding how to compact space
 
-## I <span class='red'>♥</span> PYTHON!
+!SLIDE transition=fade
+
+## I <span class='red'>&#x2014;</span> PYTHON!
+## I <span class='red'>&#x27A7;</span> PYTHON!
+## I <span class='red'>&#x1F494;</span> PYTHON!
 
 !SLIDE
 

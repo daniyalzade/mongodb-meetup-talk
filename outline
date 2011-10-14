@@ -1,0 +1,62 @@
+TODO:
+* Come up with what to talk about for each section
+* Look at more questions
+* Finish by SUNDAY
+
+
+* No sharding
+* Ubuntu 10.04
+* Mongo Version we are running
+* Instance types
+* Talk more about the configuration
+
+Talk
+* Is it a love story?
+
+chartbeat
+* realtime analytics
+
+Chartbeat Mongo
+* why we use it
+* how we use it
+* typical numbers
+
+Chartbeat EC2
+* why ec2
+
+EC2 advantages
+* Elastic
+* No trips to data center
+
+EC2 difficulties
+* Slow IO
+* Unpredictable resource behaviour
+* Instances disappearing
+* Datacenters Disappearing
+
+Mongo & EC2 & Challanges
+* Wo
+
+Best Practices We Found
+* Disk locality
+** Understand your query patterns
+* How to maintain very high insertion speed
+* 7mb/s
+* Replicaset
+** Master/slave - slave promotion
+*** Copy over replication log
+* Monitoring / unpredictable behavior
+* Automation
+* Handling snapshotting
+* Distributing reads on replicas
+** pymongo does not support it
+** bea bale to reconnect
+
+
+Questions:
+* What is the best process used to back up data stored in MongoDB on EC2?Edit
+** Go over the steps of backup / restore
+* What is the best way to store time series data in MongoDB?
+** No deletions / no disk fragmantation
+* How to handle massive writes on EC2
+*
